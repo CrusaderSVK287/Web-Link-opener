@@ -1,1 +1,2 @@
 LINKS_LIST
+Github (preview link) " Preview folder " https://github.com/CrusaderSVK287/Web-Link-opener " This is an example link, it will lead you to the creators gitbub profile where you can read more information about this application

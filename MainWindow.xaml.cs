@@ -68,7 +68,7 @@ namespace Web_Link_opener
             if (folders.Length > 1) CreateLink.IsEnabled = true;
             foreach (string folder in folders)
             {
-                if (folder.Contains("FOLDERS_LIST")) continue;
+                if (folder.Contains("FOLDERS_LIST") || folder.Length==0) continue;
                 CreateLink.IsEnabled = true;
                 Button button = new Button();
                 button.Height = 20;
@@ -167,12 +167,12 @@ namespace Web_Link_opener
                 foreach (string line in File.ReadLines(@"links_backup.txt"))
                 {
                     if (line.Contains($"\" {folder} \"")) continue;
-                    File.AppendAllText(@"links.txt", line);
+                    File.AppendAllText(@"links.txt", line+"\n");
                 }
                 foreach (string line in File.ReadLines(@"folders_backup.txt"))
                 {
-                    if (line.Contains($"{folder} \"")) continue;
-                    File.AppendAllText(@"folders.txt", line);
+                    if (line.Contains($"{folder}") || line.Length==0) continue;
+                    File.AppendAllText(@"folders.txt", line + "\n");
                 }
             }
             else
@@ -180,7 +180,7 @@ namespace Web_Link_opener
                 foreach (string line in File.ReadLines(@"links_backup.txt"))
                 {
                     if (line.Contains($"{link} \" {folder} \"")) continue;
-                    File.AppendAllText(@"links.txt", line);
+                    File.AppendAllText(@"links.txt", line + "\n");
                 }
             }
             RefreshFolders();
