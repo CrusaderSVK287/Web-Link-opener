@@ -33,6 +33,8 @@ namespace Web_Link_opener
                 Title = "New folder";
                 NewLink.Visibility = Visibility.Hidden;
                 NewFolder.Visibility = Visibility.Hidden;
+                LinkLabel.Visibility = Visibility.Hidden;
+                FolderLabel.Visibility = Visibility.Hidden;
             }
         }
 

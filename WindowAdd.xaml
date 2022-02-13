@@ -9,9 +9,9 @@
     <Grid>
         <TextBlock Text="Name:" Margin="10,10,0,0"/>
         <TextBox x:Name="NewName" Width="225" Height="20" Margin="50,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Link:" Margin="15,40,0,0"/>
+        <TextBlock Text="Link:" Margin="15,40,0,0" Name="LinkLabel"/>
         <TextBox x:Name="NewLink" Width="225" Height="20" Margin="50,40,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Folder:" Margin="10,70,0,0"/>
+        <TextBlock Text="Folder:" Margin="10,70,0,0" Name="FolderLabel"/>
         <TextBox x:Name="NewFolder" Width="225" Height="20" Margin="50,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBlock Text="Description:" Margin="10,100,0,0"/>
         <TextBox x:Name="NewDescription" Width="265" Height="60" Margin="10,120,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap"/>
