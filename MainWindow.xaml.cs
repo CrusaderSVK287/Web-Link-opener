@@ -37,8 +37,8 @@ namespace Web_Link_opener
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            if (!File.Exists(@"links.txt")) File.AppendAllText(@"links.txt", "LINKS_LIST\nGithub \" Demo folder \" https://github.com/CrusaderSVK287 \" This is an example link, it will lead you to the creators gitbub profile.");
-            if (!File.Exists(@"folders.txt")) File.AppendAllText(@"folders.txt", "FOLDERS_LIST\nDemo folder \" Demo desctiption");
+            if (!File.Exists(@"links.txt")) File.AppendAllText(@"links.txt", "LINKS_LIST\nGithub (preview link) \" Preview folder \" https://github.com/CrusaderSVK287/Web-Link-opener \" This is an example link, it will lead you to the creators gitbub profile where you can read more information about this application");
+            if (!File.Exists(@"folders.txt")) File.AppendAllText(@"folders.txt", "FOLDERS_LIST\nPreview folder \" Preview desctiption");
             RefreshFolders();
         }
         private void CreateFolder_Click(object sender, RoutedEventArgs e)
