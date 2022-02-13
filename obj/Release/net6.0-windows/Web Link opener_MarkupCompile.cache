@@ -1,20 +1,20 @@
 ﻿Web Link opener
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Release\net6.0-windows\
 Web_Link_opener
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\App.xaml
 2567958658
 
-6-1036547295
+4823657392
 194-164764702
 MainWindow.xaml;WindowAdd.xaml;
 
-False
+True
 

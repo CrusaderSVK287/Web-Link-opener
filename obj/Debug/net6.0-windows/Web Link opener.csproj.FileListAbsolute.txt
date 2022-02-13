@@ -1,0 +1,23 @@
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\Web Link opener.exe
+C:\Users\lukas\source\repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\Web Link opener.deps.json
+C:\Users\lukas\source\repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\Web Link opener.runtimeconfig.json
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\Web Link opener.dll
+C:\Users\lukas\source\repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\ref\Web Link opener.dll
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\bin\Debug\net6.0-windows\Web Link opener.pdb
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.csproj.AssemblyReference.cache
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\WindowAdd.g.cs
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener_MarkupCompile.cache
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener_MarkupCompile.lref
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\WindowAdd.baml
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.g.resources
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.AssemblyInfoInputs.cache
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.AssemblyInfo.cs
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.csproj.CoreCompileInputs.cache
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.dll
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\ref\Web Link opener.dll
+C:\Users\lukas\Source\Repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.pdb
+C:\Users\lukas\source\repos\CrusaderSVK287\Web-Link-opener\obj\Debug\net6.0-windows\Web Link opener.genruntimeconfig.cache

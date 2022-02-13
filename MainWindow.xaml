@@ -5,8 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Web_Link_opener"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Web URL manager" Height="550" Width="400" Loaded="Window_Loaded">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="25"/>
+			<RowDefinition/>
+			<RowDefinition Height="70"/>
+		</Grid.RowDefinitions>
+		<Menu Grid.Row="0">
+			<MenuItem Header="New" BorderThickness="1" BorderBrush="DarkGray" Height="25" Width="37">
+				<MenuItem Header="Folder" Name="CreateFolder" Click="CreateFolder_Click"/>
+				<MenuItem Header="Link" IsEnabled="False" Name="CreateLink" Click="CreateLink_Click"/>
+			</MenuItem>
+			<MenuItem Header="Refresh" BorderThickness="1" BorderBrush="DarkGray" Height="25" Width="55" Name="RefreshWindow" Click="Refresh_Click"/>
+			<MenuItem Header="Remove" BorderThickness="1" BorderBrush="DarkGray" Height="25" Width="55" Name="Remove" Click="Remove_Click"/>
+			<MenuItem Header="Exit" BorderThickness="1" BorderBrush="DarkGray" Height="25" Width="35"  Click="Exit_Click" Name="Exit"/>
+		</Menu>
+		<Grid Grid.Row="1">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100"/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+			<ScrollViewer Grid.Column="0">
+				<StackPanel Grid.Column="0" Background="LightGray" Name="SPFolders" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+			</ScrollViewer>
+			<ScrollViewer Grid.Column="1">
+				<StackPanel Grid.Column="1" Background="#EEEEEE" Name="SPLinks" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Visible"/>
+			</ScrollViewer>
+		</Grid>
+		<Grid Grid.Row="2" Background="#EEEEEE">
+			<TextBlock Margin="5" Text="Description" Name="Description" Background="White"/>
+		</Grid>
+		<Grid x:Name="utilityGrid" Background="DarkGray" Opacity="0.5" Visibility="Collapsed"/>
+	</Grid>
 </Window>

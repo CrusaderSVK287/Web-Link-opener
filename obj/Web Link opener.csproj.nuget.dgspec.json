@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukas\\Desktop\\Kodiky\\Web-Link-opener\\Web Link opener.csproj": {}
+    "C:\\Users\\lukas\\Source\\Repos\\CrusaderSVK287\\Web-Link-opener\\Web Link opener.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukas\\Desktop\\Kodiky\\Web-Link-opener\\Web Link opener.csproj": {
+    "C:\\Users\\lukas\\Source\\Repos\\CrusaderSVK287\\Web-Link-opener\\Web Link opener.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukas\\Desktop\\Kodiky\\Web-Link-opener\\Web Link opener.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\Source\\Repos\\CrusaderSVK287\\Web-Link-opener\\Web Link opener.csproj",
         "projectName": "Web Link opener",
-        "projectPath": "C:\\Users\\lukas\\Desktop\\Kodiky\\Web-Link-opener\\Web Link opener.csproj",
+        "projectPath": "C:\\Users\\lukas\\Source\\Repos\\CrusaderSVK287\\Web-Link-opener\\Web Link opener.csproj",
         "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukas\\Desktop\\Kodiky\\Web-Link-opener\\obj\\",
+        "outputPath": "C:\\Users\\lukas\\Source\\Repos\\CrusaderSVK287\\Web-Link-opener\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
