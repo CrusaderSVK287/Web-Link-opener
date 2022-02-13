@@ -34,7 +34,7 @@
 			</ScrollViewer>
 		</Grid>
 		<Grid Grid.Row="2" Background="#EEEEEE">
-			<TextBlock Margin="5" Text="Description" Name="Description" Background="White"/>
+			<TextBlock Margin="5" Text="Description" Name="Description" Background="White" TextWrapping="Wrap"/>
 		</Grid>
 		<Grid x:Name="utilityGrid" Background="DarkGray" Opacity="0.5" Visibility="Collapsed"/>
 	</Grid>
